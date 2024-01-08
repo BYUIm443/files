@@ -1,0 +1,18 @@
+---
+title: "Installing Packages"
+author: "Ben Woodruff"
+editor: visual
+---
+
+The purpose to this file is to help you install a few packages we'll need in this course. Hopefully, when you open this file, you'll notice some warning messages at the top of the file saying that you are missing some packages. If they appear, then follow the prompts to install them. Once they are installed, run the following code chunk to verify that they are working. Some packages, such as tidyverse, create alternate functions that override other functions in R, so you'll see some red conflict messages when you run the code below. That's normal.
+
+```{r}
+library(tidyverse)
+library(knitr)
+library(DT)
+library(quarto)
+library(usethis)
+library(getcreds)
+```
+
+As the semester goes, you may need to add other packages. For example, you can run python scripts direction from a `.qmd` file, provided you have a python installation on your computer and the appropriate `reticulate` package installed. The first time you create a python chunk, the system will ask you to install the appropriate packages.
