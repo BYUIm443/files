@@ -12,7 +12,7 @@ library(knitr)
 library(DT)
 library(quarto)
 library(usethis)
-library(getcreds)
+library(gitcreds)
 ```
 
 As the semester goes, you may need to add other packages. For example, you can run python scripts direction from a `.qmd` file, provided you have a python installation on your computer and the appropriate `reticulate` package installed. The first time you create a python chunk, the system will ask you to install the appropriate packages.
